@@ -1,38 +1,1799 @@
 [
-  {"id":1038,"name":"Osiris","level":78,"element":"Undead 4","race":"Undead","health":415400,"imageUrl":"https://static.divine-pride.net/images/mobs/png/1038.png","spawns":[{"mapname":"moc_pryd04","mapDisplayName":"Pyramid 4F","amount":1,"respawnTime":3600000,"respawnVariance":600000}]},
-  {"id":1039,"name":"Baphomet","level":81,"element":"Shadow 3","race":"Demon","health":668000,"imageUrl":"https://static.divine-pride.net/images/mobs/png/1039.png","spawns":[{"mapname":"prt_maze03","mapDisplayName":"Labyrinth Forest 3F","amount":1,"respawnTime":7200000,"respawnVariance":600000}]},
-  {"id":1046,"name":"Doppelganger","level":72,"element":"Shadow 3","race":"Demon","health":249000,"imageUrl":"https://static.divine-pride.net/images/mobs/png/1046.png","spawns":[{"mapname":"gef_dun02","mapDisplayName":"Geffen Dungeon 3F","amount":1,"respawnTime":7200000,"respawnVariance":600000}]},
-  {"id":1059,"name":"Mistress","level":74,"element":"Wind 4","race":"Insect","health":212000,"imageUrl":"https://static.divine-pride.net/images/mobs/png/1059.png","spawns":[{"mapname":"mjolnir_04","mapDisplayName":"Mt. Mjolnir 04","amount":1,"respawnTime":7200000,"respawnVariance":600000}]},
-  {"id":1086,"name":"Golden Thief Bug","level":64,"element":"Fire 2","race":"Insect","health":126000,"imageUrl":"https://static.divine-pride.net/images/mobs/png/1086.png","spawns":[{"mapname":"prt_sewb4","mapDisplayName":"Prontera Culvert 4","amount":1,"respawnTime":3600000,"respawnVariance":600000}]},
-  {"id":1087,"name":"Orc Hero","level":77,"element":"Earth 2","race":"Demi-Human","health":585700,"imageUrl":"https://static.divine-pride.net/images/mobs/png/1087.png","spawns":[{"mapname":"gef_fild02","mapDisplayName":"Geffen Field 02","amount":1,"respawnTime":86400000,"respawnVariance":600000},{"mapname":"gef_fild14","mapDisplayName":"Geffen Field 14","amount":1,"respawnTime":3600000,"respawnVariance":600000}]},
-  {"id":1112,"name":"Drake","level":70,"element":"Undead 1","race":"Undead","health":326666,"imageUrl":"https://static.divine-pride.net/images/mobs/png/1112.png","spawns":[{"mapname":"treasure02","mapDisplayName":"Sunken Ship 2F","amount":1,"respawnTime":7200000,"respawnVariance":600000}]},
-  {"id":1115,"name":"Eddga","level":65,"element":"Fire 1","race":"Brute","health":152000,"imageUrl":"https://static.divine-pride.net/images/mobs/png/1115.png","spawns":[{"mapname":"pay_fild10","mapDisplayName":"Payon Forest 10","amount":1,"respawnTime":7200000,"respawnVariance":600000}]},
-  {"id":1147,"name":"Maya","level":81,"element":"Earth 4","race":"Insect","health":169000,"imageUrl":"https://static.divine-pride.net/images/mobs/png/1147.png","spawns":[{"mapname":"anthell02","mapDisplayName":"Ant Hell 2F","amount":1,"respawnTime":7200000,"respawnVariance":600000}]},
-  {"id":1150,"name":"Moonlight Flower","level":67,"element":"Fire 3","race":"Demon","health":120000,"imageUrl":"https://static.divine-pride.net/images/mobs/png/1150.png","spawns":[{"mapname":"pay_dun04","mapDisplayName":"Payon Cave 5F","amount":1,"respawnTime":3600000,"respawnVariance":600000}]},
-  {"id":1157,"name":"Pharaoh","level":93,"element":"Shadow 3","race":"Demi-Human","health":445997,"imageUrl":"https://static.divine-pride.net/images/mobs/png/1157.png","spawns":[{"mapname":"in_sphinx5","mapDisplayName":"Sphinx B5F","amount":1,"respawnTime":3600000,"respawnVariance":600000}]},
-  {"id":1159,"name":"Phreeoni","level":69,"element":"Neutral 3","race":"Brute","health":188000,"imageUrl":"https://static.divine-pride.net/images/mobs/png/1159.png","spawns":[{"mapname":"moc_fild17","mapDisplayName":"Sograt Desert 17","amount":1,"respawnTime":7200000,"respawnVariance":600000}]},
-  {"id":1190,"name":"Orc Lord","level":74,"element":"Earth 4","race":"Demi-Human","health":783000,"imageUrl":"https://static.divine-pride.net/images/mobs/png/1190.png","spawns":[{"mapname":"gef_fild10","mapDisplayName":"Geffen Field 10","amount":1,"respawnTime":7200000,"respawnVariance":600000}]},
-  {"id":1251,"name":"Stormy Knight","level":77,"element":"Wind 4","race":"Formless","health":240000,"imageUrl":"https://static.divine-pride.net/images/mobs/png/1251.png","spawns":[{"mapname":"xmas_dun02","mapDisplayName":"Toy Factory 2F","amount":1,"respawnTime":3600000,"respawnVariance":600000}]},
-  {"id":1252,"name":"Garm","level":73,"element":"Water 4","race":"Brute","health":197000,"imageUrl":"https://static.divine-pride.net/images/mobs/png/1252.png","spawns":[{"mapname":"xmas_fild01","mapDisplayName":"Lutie Field","amount":1,"respawnTime":7200000,"respawnVariance":600000}]},
-  {"id":1272,"name":"Dark Lord","level":80,"element":"Undead 4","race":"Demon","health":720000,"imageUrl":"https://static.divine-pride.net/images/mobs/png/1272.png","spawns":[{"mapname":"gl_chyard","mapDisplayName":"Glast Heim Churchyard","amount":1,"respawnTime":3600000,"respawnVariance":600000}]},
-  {"id":1312,"name":"Turtle General","level":97,"element":"Earth 2","race":"Brute","health":320700,"imageUrl":"https://static.divine-pride.net/images/mobs/png/1312.png","spawns":[{"mapname":"tur_dun04","mapDisplayName":"Turtle Palace","amount":1,"respawnTime":3600000,"respawnVariance":600000}]},
-  {"id":1373,"name":"Lord of the Dead","level":94,"element":"Shadow 3","race":"Demon","health":503383,"imageUrl":"https://static.divine-pride.net/images/mobs/png/1373.png","spawns":[{"mapname":"niflheim","mapDisplayName":"Niflheim","amount":1,"respawnTime":7980000,"respawnVariance":600000}]},
-  {"id":1389,"name":"Dracula","level":85,"element":"Shadow 4","race":"Demon","health":320096,"imageUrl":"https://static.divine-pride.net/images/mobs/png/1389.png","spawns":[{"mapname":"gef_dun01","mapDisplayName":"Geffen Dungeon 2F","amount":1,"respawnTime":3600000,"respawnVariance":600000}]},
-  {"id":1418,"name":"Evil Snake Lord","level":73,"element":"Ghost 3","race":"Brute","health":254993,"imageUrl":"https://static.divine-pride.net/images/mobs/png/1418.png","spawns":[{"mapname":"gon_dun03","mapDisplayName":"Gonryun Dungeon 3F","amount":1,"respawnTime":5640000,"respawnVariance":600000}]},
-  {"id":1492,"name":"Incantation Samurai","level":71,"element":"Shadow 3","race":"Demi-Human","health":218652,"imageUrl":"https://static.divine-pride.net/images/mobs/png/1492.png","spawns":[{"mapname":"ama_dun03","mapDisplayName":"Amatsu Dungeon 3F","amount":1,"respawnTime":5460000,"respawnVariance":600000}]},
-  {"id":1511,"name":"Amon Ra","level":88,"element":"Earth 3","race":"Demi-Human","health":1214138,"imageUrl":"https://static.divine-pride.net/images/mobs/png/1511.png","spawns":[{"mapname":"moc_pryd06","mapDisplayName":"Pyramid B2F","amount":1,"respawnTime":3600000,"respawnVariance":600000}]},
-  {"id":1583,"name":"Tao Gunka","level":70,"element":"Neutral 3","race":"Demon","health":193000,"imageUrl":"https://static.divine-pride.net/images/mobs/png/1583.png","spawns":[{"mapname":"beach_dun","mapDisplayName":"Karu, the West Cave","amount":1,"respawnTime":18000000,"respawnVariance":600000}]},
-  {"id":1623,"name":"RSX-0806","level":86,"element":"Neutral 3","race":"Formless","health":560733,"imageUrl":"https://static.divine-pride.net/images/mobs/png/1623.png","spawns":[{"mapname":"ein_dun02","mapDisplayName":"Einbech Mine 2F","amount":1,"respawnTime":7500000,"respawnVariance":600000}]},
-  {"id":1630,"name":"White Lady","level":85,"element":"Wind 3","race":"Demi-Human","health":253221,"imageUrl":"https://static.divine-pride.net/images/mobs/png/1630.png","spawns":[{"mapname":"lou_dun03","mapDisplayName":"Louyang Dungeon 3F","amount":1,"respawnTime":7020000,"respawnVariance":600000}]},
-  {"id":1658,"name":"Egnigem Cenia","level":79,"element":"Fire 2","race":"Demi-Human","health":214200,"imageUrl":"https://static.divine-pride.net/images/mobs/png/1658.png","spawns":[{"mapname":"lhz_dun02","mapDisplayName":"Bio Laboratory 2F","amount":1,"respawnTime":7200000,"respawnVariance":600000}]},
-  {"id":1685,"name":"Vesper","level":97,"element":"Holy 2","race":"Brute","health":640700,"imageUrl":"https://static.divine-pride.net/images/mobs/png/1685.png","spawns":[{"mapname":"jupe_core","mapDisplayName":"Juperos Core","amount":1,"respawnTime":7200000,"respawnVariance":600000}]},
-  {"id":1688,"name":"Lady Tanee","level":89,"element":"Wind 3","race":"Plant","health":493000,"imageUrl":"https://static.divine-pride.net/images/mobs/png/1688.png","spawns":[{"mapname":"ayo_dun02","mapDisplayName":"Ayothaya Dungeon 2F","amount":1,"respawnTime":25200000,"respawnVariance":600000}]},
-  {"id":1708,"name":"Thanatos Phantom","level":99,"element":"Ghost 4","race":"Demon","health":1200000,"imageUrl":"https://static.divine-pride.net/images/mobs/png/1708.png","spawns":[{"mapname":"thana_boss","mapDisplayName":"Thanatos Tower - Unknown Area","amount":1,"respawnTime":3600000,"respawnVariance":600000}]},
-  {"id":1719,"name":"Detardeurus","level":90,"element":"Shadow 3","race":"Dragon","health":960000,"imageUrl":"https://static.divine-pride.net/images/mobs/png/1719.png","spawns":[{"mapname":"abyss_03","mapDisplayName":"Abyss Lake 3F","amount":1,"respawnTime":10800000,"respawnVariance":600000}]},
-  {"id":1734,"name":"Kiel D-01","level":90,"element":"Shadow 2","race":"Formless","health":1523000,"imageUrl":"https://static.divine-pride.net/images/mobs/png/1734.png","spawns":[{"mapname":"kh_dun02","mapDisplayName":"Robot Factory 2F","amount":1,"respawnTime":7200000,"respawnVariance":600000}]},
-  {"id":1751,"name":"Valkyrie Randgris","level":99,"element":"Holy 4","race":"Angel","health":2205000,"imageUrl":"https://static.divine-pride.net/images/mobs/png/1751.png","spawns":[{"mapname":"odin_tem03","mapDisplayName":"Odin Temple 3","amount":1,"respawnTime":28800000,"respawnVariance":600000}]},
-  {"id":1768,"name":"Gloom Under Night","level":89,"element":"Ghost 3","race":"Formless","health":2298000,"imageUrl":"https://static.divine-pride.net/images/mobs/png/1768.png","spawns":[{"mapname":"ra_san05","mapDisplayName":"Rachel Sanctuary 5F","amount":1,"respawnTime":18000000,"respawnVariance":600000}]},
-  {"id":1785,"name":"Atroce","level":82,"element":"Shadow 3","race":"Brute","health":1008420,"imageUrl":"https://static.divine-pride.net/images/mobs/png/1785.png","spawns":[{"mapname":"ra_fild02","mapDisplayName":"Rachel Field 02","amount":1,"respawnTime":14400000,"respawnVariance":600000},{"mapname":"ra_fild03","mapDisplayName":"Rachel Field 03","amount":1,"respawnTime":10800000,"respawnVariance":600000},{"mapname":"ra_fild04","mapDisplayName":"Rachel Field 04","amount":1,"respawnTime":18000000,"respawnVariance":600000},{"mapname":"ve_fild01","mapDisplayName":"Veins Field 01","amount":1,"respawnTime":18000000,"respawnVariance":600000},{"mapname":"ve_fild02","mapDisplayName":"Veins Field 02","amount":1,"respawnTime":21600000,"respawnVariance":600000}]},
-  {"id":1832,"name":"Ifrit","level":99,"element":"Fire 4","race":"Formless","health":5700000,"imageUrl":"https://static.divine-pride.net/images/mobs/png/1832.png","spawns":[{"mapname":"thor_v03","mapDisplayName":"Thor Volcano 3F","amount":1,"respawnTime":39600000,"respawnVariance":600000}]},
-  {"id":1871,"name":"Fallen Bishop Hibram","level":80,"element":"Shadow 2","race":"Demon","health":3333333,"imageUrl":"https://static.divine-pride.net/images/mobs/png/1871.png","spawns":[{"mapname":"abbey02","mapDisplayName":"Cursed Abbey 2F","amount":1,"respawnTime":7200000,"respawnVariance":600000}]}
+  {
+    "id": 2476,
+    "name": "Amdarais",
+    "level": 145,
+    "element": "Undead 4",
+    "race": "Undead",
+    "health": 5450000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/2476.png",
+    "spawns": [
+      {
+        "mapname": "2@gl_k",
+        "mapDisplayName": "Old Glast Heim",
+        "amount": 1,
+        "respawnTime": 68400000,
+        "respawnVariance": 0
+      }
+    ]
+  },
+  {
+    "id": 1511,
+    "name": "Amon Ra",
+    "level": 88,
+    "element": "Earth 3",
+    "race": "Demi-Human",
+    "health": 1214138,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/1511.png",
+    "spawns": [
+      {
+        "mapname": "moc_pryd06",
+        "mapDisplayName": "Pyramid B2F",
+        "amount": 1,
+        "respawnTime": 3600000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 20922,
+    "name": "Amon Ra Nightmare",
+    "level": 160,
+    "element": "Earth 3",
+    "race": "Demi-Human",
+    "health": 8000000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/20922.png",
+    "spawns": [
+      {
+        "mapname": "moc_prydn2",
+        "mapDisplayName": "Nightmare Pyramid B2F",
+        "amount": 1,
+        "respawnTime": 3600000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 20943,
+    "name": "Ancient Tao Gunka",
+    "level": 175,
+    "element": "Neutral 3",
+    "race": "Demon",
+    "health": 12000000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/20943.png",
+    "spawns": [
+      {
+        "mapname": "com_d02_i",
+        "mapDisplayName": "Illusion of Comodo",
+        "amount": 1,
+        "respawnTime": 7200000,
+        "respawnVariance": 0
+      }
+    ]
+  },
+  {
+    "id": 20944,
+    "name": "Ancient Wootan Defender",
+    "level": 175,
+    "element": "Earth 3",
+    "race": "Demi-Human",
+    "health": 11000000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/20944.png",
+    "spawns": [
+      {
+        "mapname": "com_d02_i",
+        "mapDisplayName": "Illusion of Comodo",
+        "amount": 1,
+        "respawnTime": 7200000,
+        "respawnVariance": 0
+      }
+    ]
+  },
+  {
+    "id": 1647,
+    "name": "Assassin Cross Eremes",
+    "level": 160,
+    "element": "Poison 3",
+    "race": "Demi-Human",
+    "health": 3782000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/1647.png",
+    "spawns": [
+      {
+        "mapname": "lhz_dun03",
+        "mapDisplayName": "Bio Laboratory 3F",
+        "amount": 1,
+        "respawnTime": 6000000,
+        "respawnVariance": 1800000
+      }
+    ]
+  },
+  {
+    "id": 1785,
+    "name": "Atroce",
+    "level": 82,
+    "element": "Shadow 3",
+    "race": "Brute",
+    "health": 1008420,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/1785.png",
+    "spawns": [
+      {
+        "mapname": "ra_fild02",
+        "mapDisplayName": "Rachel Field 02",
+        "amount": 1,
+        "respawnTime": 14400000,
+        "respawnVariance": 600000
+      },
+      {
+        "mapname": "ra_fild03",
+        "mapDisplayName": "Rachel Field 03",
+        "amount": 1,
+        "respawnTime": 10800000,
+        "respawnVariance": 600000
+      },
+      {
+        "mapname": "ra_fild04",
+        "mapDisplayName": "Rachel Field 04",
+        "amount": 1,
+        "respawnTime": 18000000,
+        "respawnVariance": 600000
+      },
+      {
+        "mapname": "ve_fild01",
+        "mapDisplayName": "Veins Field 01",
+        "amount": 1,
+        "respawnTime": 10800000,
+        "respawnVariance": 600000
+      },
+      {
+        "mapname": "ve_fild02",
+        "mapDisplayName": "Veins Field 02",
+        "amount": 1,
+        "respawnTime": 21600000,
+        "respawnVariance": 600000
+      },
+      {
+        "mapname": "gld_dun03_2",
+        "mapDisplayName": "Valkyrie Guild Dungeon F2",
+        "amount": 1,
+        "respawnTime": 28800000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 21301,
+    "name": "Awakened Ktullanux",
+    "level": 190,
+    "element": "Water 4",
+    "race": "Brute",
+    "health": 25000000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/21301.png",
+    "spawns": [
+      {
+        "mapname": "ice_d03_i",
+        "mapDisplayName": "Illusion of Frozen",
+        "amount": 1,
+        "respawnTime": 7200000,
+        "respawnVariance": 0
+      }
+    ]
+  },
+  {
+    "id": 1039,
+    "name": "Baphomet",
+    "level": 81,
+    "element": "Shadow 3",
+    "race": "Demon",
+    "health": 668000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/1039.png",
+    "spawns": [
+      {
+        "mapname": "prt_maze03",
+        "mapDisplayName": "Labyrinth Forest 3F",
+        "amount": 1,
+        "respawnTime": 7200000,
+        "respawnVariance": 600000
+      },
+      {
+        "mapname": "gld_dun03",
+        "mapDisplayName": "Valkyrie Guild Dungeon",
+        "amount": 1,
+        "respawnTime": 28800000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 1874,
+    "name": "Beelzebub",
+    "level": 98,
+    "element": "Ghost 4",
+    "race": "Demon",
+    "health": 6666666,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/1874.png",
+    "spawns": [
+      {
+        "mapname": "abbey03",
+        "mapDisplayName": "Cursed Abbey 3F",
+        "amount": 1,
+        "respawnTime": 43200000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 2531,
+    "name": "Bijou",
+    "level": 160,
+    "element": "Water 3",
+    "race": "Angel",
+    "health": 8000000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/2531.png",
+    "spawns": [
+      {
+        "mapname": "1@mir",
+        "mapDisplayName": "Ritual Room",
+        "amount": 1,
+        "respawnTime": 14400000,
+        "respawnVariance": 0
+      }
+    ]
+  },
+  {
+    "id": 2068,
+    "name": "Boitata",
+    "level": 93,
+    "element": "Fire 3",
+    "race": "Brute",
+    "health": 1283700,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/2068.png",
+    "spawns": [
+      {
+        "mapname": "bra_dun02",
+        "mapDisplayName": "Brasilis Dungeon 2F",
+        "amount": 1,
+        "respawnTime": 7200000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 20621,
+    "name": "Boss Meow",
+    "level": 210,
+    "element": "Neutral 3",
+    "race": "Brute",
+    "health": 40000000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/20621.png",
+    "spawns": [
+      {
+        "mapname": "ba_lost",
+        "mapDisplayName": "Lost Valley",
+        "amount": 1,
+        "respawnTime": 7200000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 20601,
+    "name": "Burning Fang",
+    "level": 220,
+    "element": "Fire 4",
+    "race": "Dragon",
+    "health": 55000000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/20601.png",
+    "spawns": [
+      {
+        "mapname": "oz_dun02",
+        "mapDisplayName": "Oz Labyrinth 2F",
+        "amount": 1,
+        "respawnTime": 21600000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 3241,
+    "name": "Champion Chen",
+    "level": 160,
+    "element": "Water 3",
+    "race": "Demi-Human",
+    "health": 4500000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/3241.png",
+    "spawns": [
+      {
+        "mapname": "lhz_dun04",
+        "mapDisplayName": "Bio Laboratory 4F",
+        "amount": 1,
+        "respawnTime": 6000000,
+        "respawnVariance": 1800000
+      }
+    ]
+  },
+  {
+    "id": 3450,
+    "name": "Clown Alphoccio",
+    "level": 160,
+    "element": "Wind 3",
+    "race": "Demi-Human",
+    "health": 4500000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/3450.png",
+    "spawns": [
+      {
+        "mapname": "lhz_dun04",
+        "mapDisplayName": "Bio Laboratory 4F",
+        "amount": 1,
+        "respawnTime": 6000000,
+        "respawnVariance": 1800000
+      }
+    ]
+  },
+  {
+    "id": 3097,
+    "name": "Corrupted Dark Lord",
+    "level": 160,
+    "element": "Undead 4",
+    "race": "Demon",
+    "health": 9500000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/3097.png",
+    "spawns": [
+      {
+        "mapname": "gl_cas01_",
+        "mapDisplayName": "Corrupted Castle 1F",
+        "amount": 1,
+        "respawnTime": 3600000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 20807,
+    "name": "Corrupted Spider Queen",
+    "level": 200,
+    "element": "Poison 3",
+    "race": "Insect",
+    "health": 35000000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/20807.png",
+    "spawns": [
+      {
+        "mapname": "gl_cas01_",
+        "mapDisplayName": "Corrupted Castle 1F",
+        "amount": 1,
+        "respawnTime": 7200000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 3220,
+    "name": "Creator Flamel",
+    "level": 160,
+    "element": "Fire 3",
+    "race": "Demi-Human",
+    "health": 4500000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/3220.png",
+    "spawns": [
+      {
+        "mapname": "lhz_dun04",
+        "mapDisplayName": "Bio Laboratory 4F",
+        "amount": 1,
+        "respawnTime": 6000000,
+        "respawnVariance": 1800000
+      }
+    ]
+  },
+  {
+    "id": 2475,
+    "name": "Daehyon",
+    "level": 145,
+    "element": "Fire 3",
+    "race": "Demi-Human",
+    "health": 4500000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/2475.png",
+    "spawns": [
+      {
+        "mapname": "gld2_pay",
+        "mapDisplayName": "Hall of Abyss - Payon",
+        "amount": 1,
+        "respawnTime": 28800000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 1272,
+    "name": "Dark Lord",
+    "level": 80,
+    "element": "Undead 4",
+    "race": "Demon",
+    "health": 720000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/1272.png",
+    "spawns": [
+      {
+        "mapname": "gl_chyard",
+        "mapDisplayName": "Glast Heim Churchyard",
+        "amount": 1,
+        "respawnTime": 3600000,
+        "respawnVariance": 600000
+      },
+      {
+        "mapname": "gl_chyard_",
+        "mapDisplayName": "Nightmare Churchyard",
+        "amount": 1,
+        "respawnTime": 3600000,
+        "respawnVariance": 600000
+      },
+      {
+        "mapname": "gld_dun04_2",
+        "mapDisplayName": "Baldur Guild Dungeon F2",
+        "amount": 1,
+        "respawnTime": 28800000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 20419,
+    "name": "Death Witch",
+    "level": 215,
+    "element": "Dark 3",
+    "race": "Demon",
+    "health": 45000000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/20419.png",
+    "spawns": [
+      {
+        "mapname": "nif_dun02",
+        "mapDisplayName": "Niflheim Dungeon 2F",
+        "amount": 1,
+        "respawnTime": 21600000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 20615,
+    "name": "Deep Sea Kraken",
+    "level": 215,
+    "element": "Water 4",
+    "race": "Fish",
+    "health": 48000000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/20615.png",
+    "spawns": [
+      {
+        "mapname": "iz_d04_i",
+        "mapDisplayName": "Illusion of Deep Sea",
+        "amount": 1,
+        "respawnTime": 7200000,
+        "respawnVariance": 0
+      }
+    ]
+  },
+  {
+    "id": 20616,
+    "name": "Deep Sea Witch",
+    "level": 215,
+    "element": "Dark 3",
+    "race": "Demon",
+    "health": 48000000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/20616.png",
+    "spawns": [
+      {
+        "mapname": "iz_d05_i",
+        "mapDisplayName": "Illusion of Deep Sea 2",
+        "amount": 1,
+        "respawnTime": 7200000,
+        "respawnVariance": 0
+      }
+    ]
+  },
+  {
+    "id": 1719,
+    "name": "Detardeurus",
+    "level": 90,
+    "element": "Shadow 3",
+    "race": "Dragon",
+    "health": 960000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/1719.png",
+    "spawns": [
+      {
+        "mapname": "abyss_03",
+        "mapDisplayName": "Abyss Lake 3F",
+        "amount": 1,
+        "respawnTime": 10800000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 1046,
+    "name": "Doppelganger",
+    "level": 72,
+    "element": "Shadow 3",
+    "race": "Demon",
+    "health": 249000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/1046.png",
+    "spawns": [
+      {
+        "mapname": "gef_dun02",
+        "mapDisplayName": "Geffen Dungeon 3F",
+        "amount": 1,
+        "respawnTime": 7200000,
+        "respawnVariance": 600000
+      },
+      {
+        "mapname": "gld_dun04",
+        "mapDisplayName": "Baldur Guild Dungeon",
+        "amount": 1,
+        "respawnTime": 28800000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 1389,
+    "name": "Dracula",
+    "level": 85,
+    "element": "Shadow 4",
+    "race": "Demon",
+    "health": 320096,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/1389.png",
+    "spawns": [
+      {
+        "mapname": "gef_dun01",
+        "mapDisplayName": "Geffen Dungeon 2F",
+        "amount": 1,
+        "respawnTime": 3600000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 4123,
+    "name": "Dracula of Rage",
+    "level": 175,
+    "element": "Shadow 4",
+    "race": "Demon",
+    "health": 16000000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/4123.png",
+    "spawns": [
+      {
+        "mapname": "gef_d01_i",
+        "mapDisplayName": "Illusion of Vampire",
+        "amount": 1,
+        "respawnTime": 7200000,
+        "respawnVariance": 0
+      }
+    ]
+  },
+  {
+    "id": 1112,
+    "name": "Drake",
+    "level": 70,
+    "element": "Undead 1",
+    "race": "Undead",
+    "health": 326666,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/1112.png",
+    "spawns": [
+      {
+        "mapname": "treasure02",
+        "mapDisplayName": "Sunken Ship 2F",
+        "amount": 1,
+        "respawnTime": 7200000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 1115,
+    "name": "Eddga",
+    "level": 65,
+    "element": "Fire 1",
+    "race": "Brute",
+    "health": 152000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/1115.png",
+    "spawns": [
+      {
+        "mapname": "pay_fild10",
+        "mapDisplayName": "Payon Forest 10",
+        "amount": 1,
+        "respawnTime": 7200000,
+        "respawnVariance": 600000
+      },
+      {
+        "mapname": "gld_dun01_2",
+        "mapDisplayName": "Baldur Guild Dungeon F2",
+        "amount": 1,
+        "respawnTime": 28800000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 1658,
+    "name": "Egnigem Cenia",
+    "level": 79,
+    "element": "Fire 2",
+    "race": "Demi-Human",
+    "health": 214200,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/1658.png",
+    "spawns": [
+      {
+        "mapname": "lhz_dun02",
+        "mapDisplayName": "Bio Laboratory 2F",
+        "amount": 1,
+        "respawnTime": 7200000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 1418,
+    "name": "Evil Snake Lord",
+    "level": 73,
+    "element": "Ghost 3",
+    "race": "Brute",
+    "health": 254993,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/1418.png",
+    "spawns": [
+      {
+        "mapname": "gon_dun03",
+        "mapDisplayName": "Gonryun Dungeon 3F",
+        "amount": 1,
+        "respawnTime": 5640000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 1871,
+    "name": "Fallen Bishop Hibram",
+    "level": 80,
+    "element": "Shadow 2",
+    "race": "Demon",
+    "health": 3333333,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/1871.png",
+    "spawns": [
+      {
+        "mapname": "abbey02",
+        "mapDisplayName": "Cursed Abbey 2F",
+        "amount": 1,
+        "respawnTime": 7200000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 1252,
+    "name": "Garm",
+    "level": 73,
+    "element": "Water 4",
+    "race": "Brute",
+    "health": 197000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/1252.png",
+    "spawns": [
+      {
+        "mapname": "xmas_fild01",
+        "mapDisplayName": "Lutie Field",
+        "amount": 1,
+        "respawnTime": 7200000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 2483,
+    "name": "Gioia",
+    "level": 146,
+    "element": "Wind 4",
+    "race": "Formless",
+    "health": 4800000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/2483.png",
+    "spawns": [
+      {
+        "mapname": "gld2_ald",
+        "mapDisplayName": "Hall of Abyss - Aldebaran",
+        "amount": 1,
+        "respawnTime": 28800000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 1768,
+    "name": "Gloom Under Night",
+    "level": 89,
+    "element": "Ghost 3",
+    "race": "Formless",
+    "health": 2298000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/1768.png",
+    "spawns": [
+      {
+        "mapname": "ra_san05",
+        "mapDisplayName": "Rachel Sanctuary 5F",
+        "amount": 1,
+        "respawnTime": 18000000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 2165,
+    "name": "Gold Queen Scaraba",
+    "level": 155,
+    "element": "Holy 2",
+    "race": "Insect",
+    "health": 5150000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/2165.png",
+    "spawns": [
+      {
+        "mapname": "dic_dun03",
+        "mapDisplayName": "Scaraba Hole 3F",
+        "amount": 1,
+        "respawnTime": 7200000,
+        "respawnVariance": 0
+      }
+    ]
+  },
+  {
+    "id": 1086,
+    "name": "Golden Thief Bug",
+    "level": 64,
+    "element": "Fire 2",
+    "race": "Insect",
+    "health": 126000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/1086.png",
+    "spawns": [
+      {
+        "mapname": "prt_sewb4",
+        "mapDisplayName": "Prontera Culvert 4",
+        "amount": 1,
+        "respawnTime": 3600000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 1885,
+    "name": "Gopinich",
+    "level": 97,
+    "element": "Earth 3",
+    "race": "Brute",
+    "health": 1122000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/1885.png",
+    "spawns": [
+      {
+        "mapname": "mosk_dun03",
+        "mapDisplayName": "Moscovia Dungeon 3F",
+        "amount": 1,
+        "respawnTime": 7200000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 3473,
+    "name": "Gypsy Trentini",
+    "level": 160,
+    "element": "Wind 3",
+    "race": "Demi-Human",
+    "health": 4500000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/3473.png",
+    "spawns": [
+      {
+        "mapname": "lhz_dun04",
+        "mapDisplayName": "Bio Laboratory 4F",
+        "amount": 1,
+        "respawnTime": 6000000,
+        "respawnVariance": 1800000
+      }
+    ]
+  },
+  {
+    "id": 2251,
+    "name": "Hardrock Mammoth",
+    "level": 128,
+    "element": "Earth 3",
+    "race": "Brute",
+    "health": 2500000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/2251.png",
+    "spawns": [
+      {
+        "mapname": "man_fild03",
+        "mapDisplayName": "Manuk Field 03",
+        "amount": 1,
+        "respawnTime": 14400000,
+        "respawnVariance": 0
+      }
+    ]
+  },
+  {
+    "id": 1649,
+    "name": "High Priest Magaleta",
+    "level": 160,
+    "element": "Holy 3",
+    "race": "Demi-Human",
+    "health": 3782000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/1649.png",
+    "spawns": [
+      {
+        "mapname": "lhz_dun03",
+        "mapDisplayName": "Bio Laboratory 3F",
+        "amount": 1,
+        "respawnTime": 6000000,
+        "respawnVariance": 1800000
+      }
+    ]
+  },
+  {
+    "id": 1651,
+    "name": "High Wizard Kathryne",
+    "level": 160,
+    "element": "Ghost 3",
+    "race": "Demi-Human",
+    "health": 3782000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/1651.png",
+    "spawns": [
+      {
+        "mapname": "lhz_dun03",
+        "mapDisplayName": "Bio Laboratory 3F",
+        "amount": 1,
+        "respawnTime": 6000000,
+        "respawnVariance": 1800000
+      }
+    ]
+  },
+  {
+    "id": 1832,
+    "name": "Ifrit",
+    "level": 99,
+    "element": "Fire 4",
+    "race": "Formless",
+    "health": 5700000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/1832.png",
+    "spawns": [
+      {
+        "mapname": "thor_v03",
+        "mapDisplayName": "Thor Volcano 3F",
+        "amount": 1,
+        "respawnTime": 39600000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 1492,
+    "name": "Incantation Samurai",
+    "level": 71,
+    "element": "Shadow 3",
+    "race": "Demi-Human",
+    "health": 218652,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/1492.png",
+    "spawns": [
+      {
+        "mapname": "ama_dun03",
+        "mapDisplayName": "Amatsu Dungeon 3F",
+        "amount": 1,
+        "respawnTime": 5460000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 21466,
+    "name": "Jewel Ungoliant",
+    "level": 200,
+    "element": "Earth 3",
+    "race": "Insect",
+    "health": 30000000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/21466.png",
+    "spawns": [
+      {
+        "mapname": "ein_dun03",
+        "mapDisplayName": "Einbech Mine 3F",
+        "amount": 1,
+        "respawnTime": 7200000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 1734,
+    "name": "Kiel D-01",
+    "level": 90,
+    "element": "Shadow 2",
+    "race": "Formless",
+    "health": 1523000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/1734.png",
+    "spawns": [
+      {
+        "mapname": "kh_dun02",
+        "mapDisplayName": "Robot Factory 2F",
+        "amount": 1,
+        "respawnTime": 7200000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 21548,
+    "name": "King of the Alley",
+    "level": 190,
+    "element": "Neutral 3",
+    "race": "Demi-Human",
+    "health": 20000000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/21548.png",
+    "spawns": [
+      {
+        "mapname": "teg_dun02",
+        "mapDisplayName": "Thanatos Tower East",
+        "amount": 1,
+        "respawnTime": 7200000,
+        "respawnVariance": 0
+      }
+    ]
+  },
+  {
+    "id": 2202,
+    "name": "Kraken",
+    "level": 124,
+    "element": "Water 4",
+    "race": "Fish",
+    "health": 3000000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/2202.png",
+    "spawns": [
+      {
+        "mapname": "iz_dun05",
+        "mapDisplayName": "Undersea Tunnel 6F",
+        "amount": 1,
+        "respawnTime": 7200000,
+        "respawnVariance": 1800000
+      }
+    ]
+  },
+  {
+    "id": 1779,
+    "name": "Ktullanux",
+    "level": 98,
+    "element": "Water 4",
+    "race": "Brute",
+    "health": 2626000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/1779.png",
+    "spawns": [
+      {
+        "mapname": "ice_dun03",
+        "mapDisplayName": "Ice Dungeon 3F",
+        "amount": 1,
+        "respawnTime": 7200000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 2253,
+    "name": "Lady Kades",
+    "level": 135,
+    "element": "Dark 3",
+    "race": "Demon",
+    "health": 4220000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/2253.png",
+    "spawns": [
+      {
+        "mapname": "gld2_gef",
+        "mapDisplayName": "Hall of Abyss - Geffen",
+        "amount": 1,
+        "respawnTime": 28800000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 1688,
+    "name": "Lady Tanee",
+    "level": 89,
+    "element": "Wind 3",
+    "race": "Plant",
+    "health": 493000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/1688.png",
+    "spawns": [
+      {
+        "mapname": "ayo_dun02",
+        "mapDisplayName": "Ayothaya Dungeon 2F",
+        "amount": 1,
+        "respawnTime": 25200000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 2156,
+    "name": "Leak",
+    "level": 94,
+    "element": "Dark 3",
+    "race": "Demon",
+    "health": 2209800,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/2156.png",
+    "spawns": [
+      {
+        "mapname": "dew_dun01",
+        "mapDisplayName": "Dewata Dungeon 1F",
+        "amount": 1,
+        "respawnTime": 7200000,
+        "respawnVariance": 0
+      }
+    ]
+  },
+  {
+    "id": 1646,
+    "name": "Lord Knight Seyren",
+    "level": 160,
+    "element": "Fire 3",
+    "race": "Demi-Human",
+    "health": 3782000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/1646.png",
+    "spawns": [
+      {
+        "mapname": "lhz_dun03",
+        "mapDisplayName": "Bio Laboratory 3F",
+        "amount": 1,
+        "respawnTime": 6000000,
+        "respawnVariance": 1800000
+      }
+    ]
+  },
+  {
+    "id": 1373,
+    "name": "Lord of the Dead",
+    "level": 94,
+    "element": "Shadow 3",
+    "race": "Demon",
+    "health": 503383,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/1373.png",
+    "spawns": [
+      {
+        "mapname": "niflheim",
+        "mapDisplayName": "Niflheim",
+        "amount": 1,
+        "respawnTime": 7980000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 2235,
+    "name": "Lost Dragon",
+    "level": 135,
+    "element": "Dark 3",
+    "race": "Dragon",
+    "health": 3000000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/2235.png",
+    "spawns": [
+      {
+        "mapname": "1@mist",
+        "mapDisplayName": "Hazy Forest",
+        "amount": 1,
+        "respawnTime": 9000000,
+        "respawnVariance": 0
+      }
+    ]
+  },
+  {
+    "id": 1147,
+    "name": "Maya",
+    "level": 81,
+    "element": "Earth 4",
+    "race": "Insect",
+    "health": 169000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/1147.png",
+    "spawns": [
+      {
+        "mapname": "anthell02",
+        "mapDisplayName": "Ant Hell 2F",
+        "amount": 1,
+        "respawnTime": 7200000,
+        "respawnVariance": 600000
+      },
+      {
+        "mapname": "gld_dun02_2",
+        "mapDisplayName": "Luina Guild Dungeon F2",
+        "amount": 1,
+        "respawnTime": 28800000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 3621,
+    "name": "Mechaspider",
+    "level": 175,
+    "element": "Neutral 3",
+    "race": "Formless",
+    "health": 12000000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/3621.png",
+    "spawns": [
+      {
+        "mapname": "rockmi1",
+        "mapDisplayName": "Rockridge Mine",
+        "amount": 1,
+        "respawnTime": 7200000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 1059,
+    "name": "Mistress",
+    "level": 74,
+    "element": "Wind 4",
+    "race": "Insect",
+    "health": 212000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/1059.png",
+    "spawns": [
+      {
+        "mapname": "mjolnir_04",
+        "mapDisplayName": "Mt. Mjolnir 04",
+        "amount": 1,
+        "respawnTime": 7200000,
+        "respawnVariance": 600000
+      },
+      {
+        "mapname": "gld_dun02",
+        "mapDisplayName": "Luina Guild Dungeon",
+        "amount": 1,
+        "respawnTime": 28800000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 1150,
+    "name": "Moonlight Flower",
+    "level": 67,
+    "element": "Fire 3",
+    "race": "Demon",
+    "health": 120000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/1150.png",
+    "spawns": [
+      {
+        "mapname": "pay_dun04",
+        "mapDisplayName": "Payon Cave 5F",
+        "amount": 1,
+        "respawnTime": 3600000,
+        "respawnVariance": 600000
+      },
+      {
+        "mapname": "gld_dun01",
+        "mapDisplayName": "Greenwood Lake Guild Dungeon",
+        "amount": 1,
+        "respawnTime": 28800000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 3757,
+    "name": "Nidhoggur's Shadow",
+    "level": 117,
+    "element": "Dark 4",
+    "race": "Dragon",
+    "health": 9000000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/3757.png",
+    "spawns": [
+      {
+        "mapname": "2@nyd",
+        "mapDisplayName": "Nidhoggur's Nest",
+        "amount": 1,
+        "respawnTime": 82800000,
+        "respawnVariance": 0
+      }
+    ]
+  },
+  {
+    "id": 2996,
+    "name": "Nightmare Baphomet",
+    "level": 160,
+    "element": "Shadow 3",
+    "race": "Demon",
+    "health": 9000000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/2996.png",
+    "spawns": [
+      {
+        "mapname": "gl_cas02_",
+        "mapDisplayName": "Nightmare Glast Heim 2F",
+        "amount": 1,
+        "respawnTime": 7200000,
+        "respawnVariance": 0
+      }
+    ]
+  },
+  {
+    "id": 3810,
+    "name": "Ominous Turtle General",
+    "level": 175,
+    "element": "Earth 3",
+    "race": "Brute",
+    "health": 15000000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/3810.png",
+    "spawns": [
+      {
+        "mapname": "tur_d04_i",
+        "mapDisplayName": "Illusion of Turtle",
+        "amount": 1,
+        "respawnTime": 7200000,
+        "respawnVariance": 0
+      }
+    ]
+  },
+  {
+    "id": 1087,
+    "name": "Orc Hero",
+    "level": 77,
+    "element": "Earth 2",
+    "race": "Demi-Human",
+    "health": 585700,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/1087.png",
+    "spawns": [
+      {
+        "mapname": "gef_fild02",
+        "mapDisplayName": "Geffen Field 02",
+        "amount": 1,
+        "respawnTime": 87000000,
+        "respawnVariance": 600000
+      },
+      {
+        "mapname": "gef_fild14",
+        "mapDisplayName": "Geffen Field 14",
+        "amount": 1,
+        "respawnTime": 3600000,
+        "respawnVariance": 600000
+      },
+      {
+        "mapname": "gef_fild03",
+        "mapDisplayName": "Geffen Field 03",
+        "amount": 1,
+        "respawnTime": 3600000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 1190,
+    "name": "Orc Lord",
+    "level": 74,
+    "element": "Earth 4",
+    "race": "Demi-Human",
+    "health": 783000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/1190.png",
+    "spawns": [
+      {
+        "mapname": "gef_fild10",
+        "mapDisplayName": "Geffen Field 10",
+        "amount": 1,
+        "respawnTime": 7200000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 1038,
+    "name": "Osiris",
+    "level": 78,
+    "element": "Undead 4",
+    "race": "Undead",
+    "health": 415400,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/1038.png",
+    "spawns": [
+      {
+        "mapname": "moc_pryd04",
+        "mapDisplayName": "Pyramid 4F",
+        "amount": 1,
+        "respawnTime": 3600000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 3180,
+    "name": "Paladin Randel",
+    "level": 160,
+    "element": "Holy 3",
+    "race": "Demi-Human",
+    "health": 4500000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/3180.png",
+    "spawns": [
+      {
+        "mapname": "lhz_dun04",
+        "mapDisplayName": "Bio Laboratory 4F",
+        "amount": 1,
+        "respawnTime": 6000000,
+        "respawnVariance": 1800000
+      }
+    ]
+  },
+  {
+    "id": 1157,
+    "name": "Pharaoh",
+    "level": 93,
+    "element": "Shadow 3",
+    "race": "Demi-Human",
+    "health": 445997,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/1157.png",
+    "spawns": [
+      {
+        "mapname": "in_sphinx5",
+        "mapDisplayName": "Sphinx B5F",
+        "amount": 1,
+        "respawnTime": 3600000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 1159,
+    "name": "Phreeoni",
+    "level": 69,
+    "element": "Neutral 3",
+    "race": "Brute",
+    "health": 188000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/1159.png",
+    "spawns": [
+      {
+        "mapname": "moc_fild17",
+        "mapDisplayName": "Sograt Desert 17",
+        "amount": 1,
+        "respawnTime": 7200000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 3240,
+    "name": "Professor Celia",
+    "level": 160,
+    "element": "Ghost 3",
+    "race": "Demi-Human",
+    "health": 4500000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/3240.png",
+    "spawns": [
+      {
+        "mapname": "lhz_dun04",
+        "mapDisplayName": "Bio Laboratory 4F",
+        "amount": 1,
+        "respawnTime": 6000000,
+        "respawnVariance": 1800000
+      }
+    ]
+  },
+  {
+    "id": 2509,
+    "name": "Pyuriel",
+    "level": 147,
+    "element": "Fire 3",
+    "race": "Demi-Human",
+    "health": 5000000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/2509.png",
+    "spawns": [
+      {
+        "mapname": "gld2_prt",
+        "mapDisplayName": "Hall of Abyss - Prontera",
+        "amount": 1,
+        "respawnTime": 28800000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 2087,
+    "name": "Queen Scaraba",
+    "level": 140,
+    "element": "Earth 3",
+    "race": "Insect",
+    "health": 2428160,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/2087.png",
+    "spawns": [
+      {
+        "mapname": "dic_dun02",
+        "mapDisplayName": "Scaraba Hole 2F",
+        "amount": 1,
+        "respawnTime": 7200000,
+        "respawnVariance": 0
+      }
+    ]
+  },
+  {
+    "id": 20346,
+    "name": "R001-Bestia",
+    "level": 215,
+    "element": "Fire 4",
+    "race": "Brute",
+    "health": 50000000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/20346.png",
+    "spawns": [
+      {
+        "mapname": "sp_rudus4",
+        "mapDisplayName": "Rudus Floor 4",
+        "amount": 1,
+        "respawnTime": 21600000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 20260,
+    "name": "R48-85-Bestia",
+    "level": 200,
+    "element": "Fire 3",
+    "race": "Brute",
+    "health": 30000000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/20260.png",
+    "spawns": [
+      {
+        "mapname": "sp_rudus2",
+        "mapDisplayName": "Rudus Floor 2",
+        "amount": 1,
+        "respawnTime": 21600000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 21515,
+    "name": "Rigid Muspellskoll",
+    "level": 200,
+    "element": "Fire 4",
+    "race": "Demon",
+    "health": 32000000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/21515.png",
+    "spawns": [
+      {
+        "mapname": "mag_dun03",
+        "mapDisplayName": "Magma Dungeon 3F",
+        "amount": 1,
+        "respawnTime": 3600000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 1623,
+    "name": "RSX-0806",
+    "level": 86,
+    "element": "Neutral 3",
+    "race": "Formless",
+    "health": 560733,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/1623.png",
+    "spawns": [
+      {
+        "mapname": "ein_dun02",
+        "mapDisplayName": "Einbech Mine 2F",
+        "amount": 1,
+        "respawnTime": 7500000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 3995,
+    "name": "Shining Teddy Bear",
+    "level": 175,
+    "element": "Holy 2",
+    "race": "Formless",
+    "health": 13000000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/3995.png",
+    "spawns": [
+      {
+        "mapname": "ein_d02_i",
+        "mapDisplayName": "Illusion of Teddy Bear",
+        "amount": 1,
+        "respawnTime": 7200000,
+        "respawnVariance": 0
+      }
+    ]
+  },
+  {
+    "id": 3896,
+    "name": "Silent Maya",
+    "level": 175,
+    "element": "Earth 4",
+    "race": "Insect",
+    "health": 14000000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/3896.png",
+    "spawns": [
+      {
+        "mapname": "ant_d02_i",
+        "mapDisplayName": "Illusion of Teddy",
+        "amount": 1,
+        "respawnTime": 7200000,
+        "respawnVariance": 0
+      }
+    ]
+  },
+  {
+    "id": 1650,
+    "name": "Sniper Cecil",
+    "level": 160,
+    "element": "Wind 3",
+    "race": "Demi-Human",
+    "health": 3782000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/1650.png",
+    "spawns": [
+      {
+        "mapname": "lhz_dun03",
+        "mapDisplayName": "Bio Laboratory 3F",
+        "amount": 1,
+        "respawnTime": 6000000,
+        "respawnVariance": 1800000
+      }
+    ]
+  },
+  {
+    "id": 3242,
+    "name": "Stalker Gertie",
+    "level": 160,
+    "element": "Poison 3",
+    "race": "Demi-Human",
+    "health": 4500000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/3242.png",
+    "spawns": [
+      {
+        "mapname": "lhz_dun04",
+        "mapDisplayName": "Bio Laboratory 4F",
+        "amount": 1,
+        "respawnTime": 6000000,
+        "respawnVariance": 1800000
+      }
+    ]
+  },
+  {
+    "id": 1251,
+    "name": "Stormy Knight",
+    "level": 77,
+    "element": "Wind 4",
+    "race": "Formless",
+    "health": 240000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/1251.png",
+    "spawns": [
+      {
+        "mapname": "xmas_dun02",
+        "mapDisplayName": "Toy Factory 2F",
+        "amount": 1,
+        "respawnTime": 3600000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 1583,
+    "name": "Tao Gunka",
+    "level": 70,
+    "element": "Neutral 3",
+    "race": "Demon",
+    "health": 193000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/1583.png",
+    "spawns": [
+      {
+        "mapname": "beach_dun",
+        "mapDisplayName": "Karu, the West Cave",
+        "amount": 1,
+        "respawnTime": 18000000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 2249,
+    "name": "Tendrillion",
+    "level": 126,
+    "element": "Earth 3",
+    "race": "Brute",
+    "health": 2220000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/2249.png",
+    "spawns": [
+      {
+        "mapname": "dic_fild02",
+        "mapDisplayName": "Scaraba Field 02",
+        "amount": 1,
+        "respawnTime": 10800000,
+        "respawnVariance": 0
+      }
+    ]
+  },
+  {
+    "id": 1708,
+    "name": "Thanatos Phantom",
+    "level": 99,
+    "element": "Ghost 4",
+    "race": "Demon",
+    "health": 1200000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/1708.png",
+    "spawns": [
+      {
+        "mapname": "thana_boss",
+        "mapDisplayName": "Thanatos Tower - Unknown Area",
+        "amount": 1,
+        "respawnTime": 3600000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 21549,
+    "name": "The Last One",
+    "level": 200,
+    "element": "Dark 4",
+    "race": "Formless",
+    "health": 40000000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/21549.png",
+    "spawns": [
+      {
+        "mapname": "teg_dun01",
+        "mapDisplayName": "Thanatos Tower West",
+        "amount": 1,
+        "respawnTime": 28800000,
+        "respawnVariance": 0
+      }
+    ]
+  },
+  {
+    "id": 20535,
+    "name": "The One",
+    "level": 220,
+    "element": "Neutral 4",
+    "race": "Formless",
+    "health": 60000000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/20535.png",
+    "spawns": [
+      {
+        "mapname": "amicitia2",
+        "mapDisplayName": "Amicitia Laboratory",
+        "amount": 1,
+        "respawnTime": 21600000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 3021,
+    "name": "Time Holder",
+    "level": 160,
+    "element": "Neutral 4",
+    "race": "Formless",
+    "health": 7500000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/3021.png",
+    "spawns": [
+      {
+        "mapname": "c_tower3_",
+        "mapDisplayName": "Clock Tower Nightmare 3F",
+        "amount": 1,
+        "respawnTime": 7200000,
+        "respawnVariance": 0
+      }
+    ]
+  },
+  {
+    "id": 1312,
+    "name": "Turtle General",
+    "level": 97,
+    "element": "Earth 2",
+    "race": "Brute",
+    "health": 320700,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/1312.png",
+    "spawns": [
+      {
+        "mapname": "tur_dun04",
+        "mapDisplayName": "Turtle Palace",
+        "amount": 1,
+        "respawnTime": 3600000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 1751,
+    "name": "Valkyrie Randgris",
+    "level": 99,
+    "element": "Holy 4",
+    "race": "Angel",
+    "health": 2205000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/1751.png",
+    "spawns": [
+      {
+        "mapname": "odin_tem03",
+        "mapDisplayName": "Odin Temple 3",
+        "amount": 1,
+        "respawnTime": 28800000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 3073,
+    "name": "Venomous Chimera",
+    "level": 160,
+    "element": "Poison 3",
+    "race": "Brute",
+    "health": 7000000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/3073.png",
+    "spawns": [
+      {
+        "mapname": "slabw01",
+        "mapDisplayName": "Werner Laboratory",
+        "amount": 1,
+        "respawnTime": 3600000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 1685,
+    "name": "Vesper",
+    "level": 97,
+    "element": "Holy 2",
+    "race": "Brute",
+    "health": 640700,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/1685.png",
+    "spawns": [
+      {
+        "mapname": "jupe_core",
+        "mapDisplayName": "Juperos Core",
+        "amount": 1,
+        "respawnTime": 7200000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 1630,
+    "name": "White Lady",
+    "level": 85,
+    "element": "Wind 3",
+    "race": "Demi-Human",
+    "health": 253221,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/1630.png",
+    "spawns": [
+      {
+        "mapname": "lou_dun03",
+        "mapDisplayName": "Louyang Dungeon 3F",
+        "amount": 1,
+        "respawnTime": 7020000,
+        "respawnVariance": 600000
+      }
+    ]
+  },
+  {
+    "id": 1648,
+    "name": "Whitesmith Howard",
+    "level": 160,
+    "element": "Earth 3",
+    "race": "Demi-Human",
+    "health": 3782000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/1648.png",
+    "spawns": [
+      {
+        "mapname": "lhz_dun03",
+        "mapDisplayName": "Bio Laboratory 3F",
+        "amount": 1,
+        "respawnTime": 6000000,
+        "respawnVariance": 1800000
+      }
+    ]
+  },
+  {
+    "id": 1917,
+    "name": "Wounded Morocc",
+    "level": 132,
+    "element": "Shadow 4",
+    "race": "Demon",
+    "health": 6500000,
+    "imageUrl": "https://static.divine-pride.net/images/mobs/png/1917.png",
+    "spawns": [
+      {
+        "mapname": "moc_fild22",
+        "mapDisplayName": "Dimensional Gorge",
+        "amount": 1,
+        "respawnTime": 43200000,
+        "respawnVariance": 600000
+      }
+    ]
+  }
 ]

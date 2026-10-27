@@ -5,6 +5,8 @@ import {
   ChevronDown,
   Clock3,
   Code2,
+  Eye,
+  EyeOff,
   MapPin,
   Menu,
   RotateCcw,
@@ -19,6 +21,7 @@ import {
 import './App.css'
 import mvpData from './data/mvp-data.json'
 import type { Mvp, MvpTimer, TimerStatus } from './types'
+import { useHiddenMvps } from './useHiddenMvps'
 import { useTimers } from './useTimers'
 
 const mvps = mvpData as Mvp[]
@@ -218,8 +221,11 @@ function App() {
   const [selectedMvp, setSelectedMvp] = useState<Mvp | null>(null)
   const [now, setNow] = useState(Date.now())
   const [mobileOpen, setMobileOpen] = useState(false)
+  const [showHidden, setShowHidden] = useState(false)
   const { timers, startTimer, removeTimer, clearTimers } = useTimers()
+  const { hiddenIds, hideMvp, restoreMvp, restoreAll } = useHiddenMvps()
   const notified = useRef(new Set<string>())
+  const hiddenSet = useMemo(() => new Set(hiddenIds), [hiddenIds])
 
   useEffect(() => {
     const interval = window.setInterval(() => setNow(Date.now()), 1000)
@@ -244,22 +250,33 @@ function App() {
     })
   }, [now, timers])
 
-  const filteredMvps = useMemo(() => {
+  const matchesFilters = (mvp: Mvp) => {
     const query = search.trim().toLowerCase()
-    return mvps.filter((mvp) => {
-      const matchesElement =
-        element === 'All elements' || mvp.element.startsWith(element)
-      const matchesQuery =
-        !query ||
-        mvp.name.toLowerCase().includes(query) ||
-        mvp.spawns.some(
-          (spawn) =>
-            spawn.mapname.toLowerCase().includes(query) ||
-            spawn.mapDisplayName.toLowerCase().includes(query),
-        )
-      return matchesElement && matchesQuery
-    })
-  }, [element, search])
+    const matchesElement =
+      element === 'All elements' || mvp.element.startsWith(element)
+    const matchesQuery =
+      !query ||
+      mvp.name.toLowerCase().includes(query) ||
+      mvp.spawns.some(
+        (spawn) =>
+          spawn.mapname.toLowerCase().includes(query) ||
+          spawn.mapDisplayName.toLowerCase().includes(query),
+      )
+    return matchesElement && matchesQuery
+  }
+
+  const filteredMvps = useMemo(
+    () => mvps.filter((mvp) => !hiddenSet.has(mvp.id) && matchesFilters(mvp)),
+    [element, hiddenSet, search],
+  )
+
+  const hiddenMvps = useMemo(
+    () =>
+      mvps
+        .filter((mvp) => hiddenSet.has(mvp.id) && matchesFilters(mvp))
+        .sort((a, b) => a.name.localeCompare(b.name)),
+    [element, hiddenSet, search],
+  )
 
   const activeTimers = useMemo(
     () =>
@@ -273,6 +290,13 @@ function App() {
 
   const requestNotifications = async () => {
     if ('Notification' in window) await Notification.requestPermission()
+  }
+
+  const handleHide = (mvpId: number) => {
+    hideMvp(mvpId)
+    timers
+      .filter((timer) => timer.mvpId === mvpId)
+      .forEach((timer) => removeTimer(timer.id))
   }
 
   return (
@@ -376,7 +400,12 @@ function App() {
               <span className="section-kicker">MVP database</span>
               <h2>Choose your target</h2>
             </div>
-            <span className="result-count">{filteredMvps.length} MVPs</span>
+            <div className="catalog-meta">
+              <span className="result-count">{filteredMvps.length} visible</span>
+              {hiddenIds.length > 0 && (
+                <span className="result-count muted-count">{hiddenIds.length} hidden</span>
+              )}
+            </div>
           </div>
           <div className="filters">
             <label className="search-box">
@@ -390,7 +419,7 @@ function App() {
             </label>
             <label className="select-wrap filter-select">
               <select value={element} onChange={(event) => setElement(event.target.value)}>
-                {['All elements', 'Neutral', 'Water', 'Earth', 'Fire', 'Wind', 'Poison', 'Holy', 'Shadow', 'Ghost', 'Undead'].map(
+                {['All elements', 'Neutral', 'Water', 'Earth', 'Fire', 'Wind', 'Poison', 'Holy', 'Shadow', 'Ghost', 'Undead', 'Dark'].map(
                   (item) => <option key={item}>{item}</option>,
                 )}
               </select>
@@ -408,6 +437,13 @@ function App() {
                     <MonsterImage mvp={mvp} />
                     <span className="level-badge">Lv. {mvp.level}</span>
                     {hasTimer && <span className="tracking-badge">Tracking</span>}
+                    <button
+                      className="hide-button"
+                      title="Hide from your pool"
+                      onClick={() => handleHide(mvp.id)}
+                    >
+                      <EyeOff size={14} />
+                    </button>
                   </div>
                   <div className="card-body">
                     <h3>{mvp.name}</h3>
@@ -431,9 +467,11 @@ function App() {
                         </span>
                       </div>
                     </div>
-                    <button className="track-button" onClick={() => setSelectedMvp(mvp)}>
-                      <Skull size={17} /> Log kill
-                    </button>
+                    <div className="card-actions">
+                      <button className="track-button" onClick={() => setSelectedMvp(mvp)}>
+                        <Skull size={17} /> Log kill
+                      </button>
+                    </div>
                   </div>
                 </article>
               )
@@ -443,7 +481,57 @@ function App() {
             <div className="no-results">
               <Search size={26} />
               <h3>No MVPs found</h3>
-              <p>Try another name, map, or element.</p>
+              <p>
+                {hiddenIds.length
+                  ? 'Try another search, or restore MVPs from your hidden pool.'
+                  : 'Try another name, map, or element.'}
+              </p>
+            </div>
+          )}
+
+          {hiddenIds.length > 0 && (
+            <div className="hidden-pool">
+              <div className="section-heading">
+                <div>
+                  <span className="section-kicker">Your pool</span>
+                  <h2>Hidden MVPs</h2>
+                  <p>Removed from this device only. Restore any time.</p>
+                </div>
+                <div className="hidden-actions">
+                  <button
+                    className="text-button"
+                    onClick={() => setShowHidden((current) => !current)}
+                  >
+                    {showHidden ? <EyeOff size={15} /> : <Eye size={15} />}
+                    {showHidden ? 'Collapse' : `Show ${hiddenIds.length}`}
+                  </button>
+                  <button className="text-button" onClick={restoreAll}>
+                    <RotateCcw size={15} /> Restore all
+                  </button>
+                </div>
+              </div>
+              {showHidden && (
+                <div className="hidden-list">
+                  {hiddenMvps.map((mvp) => (
+                    <div className="hidden-row" key={mvp.id}>
+                      <MonsterImage mvp={mvp} />
+                      <div>
+                        <strong>{mvp.name}</strong>
+                        <span>Lv. {mvp.level} · {mvp.spawns[0]?.mapDisplayName}</span>
+                      </div>
+                      <button
+                        className="secondary-button restore-button"
+                        onClick={() => restoreMvp(mvp.id)}
+                      >
+                        <Eye size={15} /> Restore
+                      </button>
+                    </div>
+                  ))}
+                  {!hiddenMvps.length && (
+                    <p className="hidden-empty">No hidden MVPs match your current filters.</p>
+                  )}
+                </div>
+              )}
             </div>
           )}
         </section>

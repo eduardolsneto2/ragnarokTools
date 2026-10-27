@@ -8,6 +8,7 @@ browser-based MVP respawn timer.
 - Search MVPs by name or map
 - Log a kill for a specific spawn location
 - Follow the minimum and maximum respawn window live
+- Hide MVPs from your personal pool (saved on this device)
 - Persist timers locally between sessions
 - Receive optional browser notifications
 - Use the responsive interface on desktop or mobile

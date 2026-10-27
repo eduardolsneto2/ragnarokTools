@@ -92,7 +92,9 @@ main { margin: auto; max-width: 1180px; padding: 0 28px 80px; }
 
 .catalog-section { border-top: 1px solid var(--line); padding-top: 48px; }
 .catalog-heading { margin-bottom: 20px; }
+.catalog-meta { display: flex; flex-wrap: wrap; gap: 8px; justify-content: flex-end; }
 .result-count { background: var(--surface); border: 1px solid var(--line); border-radius: 20px; color: var(--muted); font-size: 11px; padding: 7px 12px; }
+.muted-count { opacity: .7; }
 .filters { display: grid; gap: 10px; grid-template-columns: 1fr 190px; margin-bottom: 25px; }
 .search-box, .filter-select { align-items: center; background: var(--surface); border: 1px solid var(--line); border-radius: 9px; color: var(--muted); display: flex; }
 .search-box { gap: 10px; padding: 0 14px; }
@@ -116,7 +118,14 @@ main { margin: auto; max-width: 1180px; padding: 0 28px 80px; }
 .monster-fallback { align-items: center; color: #5e5749; display: flex; justify-content: center; }
 .level-badge, .tracking-badge { border-radius: 5px; font-size: 9px; font-weight: 750; padding: 5px 7px; position: absolute; top: 10px; }
 .level-badge { background: rgba(0,0,0,.3); color: #aaa498; left: 10px; }
-.tracking-badge { background: rgba(89,170,115,.13); color: #6fc28a; right: 10px; }
+.tracking-badge { background: rgba(89,170,115,.13); color: #6fc28a; left: 10px; top: 36px; }
+.hide-button {
+  align-items: center; background: rgba(0,0,0,.45); border: 1px solid rgba(255,255,255,.08); border-radius: 7px;
+  color: #b7b1a5; cursor: pointer; display: flex; height: 28px; justify-content: center; opacity: 0;
+  position: absolute; right: 10px; top: 10px; transition: .15s ease; width: 28px;
+}
+.mvp-card:hover .hide-button, .hide-button:focus-visible { opacity: 1; }
+.hide-button:hover { border-color: #874c45; color: #e88479; }
 .card-body { padding: 15px; }
 .card-body h3 { color: var(--ink); font: 700 17px var(--display); margin: 0 0 8px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .monster-meta { display: flex; flex-wrap: wrap; gap: 5px; }
@@ -126,12 +135,26 @@ main { margin: auto; max-width: 1180px; padding: 0 28px 80px; }
 .spawn-info div { display: flex; min-width: 0; flex-direction: column; }
 .spawn-info strong { color: #c4c0b8; font-size: 10px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .spawn-info span { color: var(--muted); font-size: 9px; margin-top: 4px; }
+.card-actions { margin-top: 12px; }
 .track-button {
   align-items: center; background: transparent; border: 1px solid #423c2f; border-radius: 7px; color: var(--gold); cursor: pointer;
-  display: flex; font: 700 11px var(--sans); gap: 7px; justify-content: center; margin-top: 12px; padding: 9px; width: 100%;
+  display: flex; font: 700 11px var(--sans); gap: 7px; justify-content: center; padding: 9px; width: 100%;
 }
 .track-button:hover { background: rgba(198,153,58,.08); border-color: #6b5933; }
 .no-results { align-items: center; color: var(--muted); display: flex; flex-direction: column; padding: 75px 0; text-align: center; }
+
+.hidden-pool { border-top: 1px solid var(--line); margin-top: 48px; padding-top: 36px; }
+.hidden-actions { display: flex; flex-wrap: wrap; gap: 14px; justify-content: flex-end; }
+.hidden-list { display: grid; gap: 8px; }
+.hidden-row {
+  align-items: center; background: var(--surface); border: 1px solid var(--line); border-radius: 10px;
+  display: grid; gap: 14px; grid-template-columns: 48px 1fr auto; padding: 10px 12px;
+}
+.hidden-row .monster-image, .hidden-row .monster-fallback { height: 48px; width: 48px; }
+.hidden-row strong { color: var(--ink); display: block; font-size: 14px; }
+.hidden-row span { color: var(--muted); font-size: 11px; }
+.restore-button { padding: 9px 12px; }
+.hidden-empty { color: var(--muted); font-size: 12px; margin: 0; padding: 8px 0; }
 
 footer { align-items: center; border-top: 1px solid var(--line); display: flex; justify-content: space-between; margin: auto; max-width: 1180px; padding: 25px 28px 40px; }
 .footer-brand { font-size: 15px; }
@@ -162,6 +185,9 @@ footer a { color: #b99a57; }
   .timer-card { grid-template-columns: 1fr 180px auto; }
 }
 @media (max-width: 680px) {
+  .hide-button { opacity: 1; }
+  .hidden-row { grid-template-columns: 48px 1fr; }
+  .restore-button { grid-column: 1 / -1; width: 100%; }
   .site-header { height: 64px; padding: 0 18px; }
   .mobile-menu { background: transparent; border: 0; color: var(--ink); display: block; }
   .site-header nav { align-items: flex-start; background: #1a1a17; border: 1px solid var(--line); border-radius: 10px; display: none; flex-direction: column; gap: 18px; left: 18px; padding: 18px; position: absolute; right: 18px; top: 58px; }
